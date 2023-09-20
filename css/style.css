@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&family=Roboto:wght@400;500&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+ul{
+    display: flex;
+    list-style: none;
+    
+}
+li{
+    list-style: none;
+    margin-left: 24px;
+}
+.topo-total{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.topo{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 30px;
+    height: 30px;    
+}
+.topo-letras{
+    
+    color: #667085;
+}
+.topo-final{
+    display: inline-block;
+    margin-left: 24px;
+    cursor: pointer;
+}
+.borda-red{
+    background-color: #8E2424;
+    width: 80px;
+    height: 20px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+}
+.Numeros{
+    
+    
+}
+.numeros-completo{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 30px;
+    
+}
+.numeros-completo p{
+    color: #667085;
+}
+.numeros-red{
+    color: #8E2424;
+    font-size: 60px;
+
+}
+.Vagas{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+}
+.Vagas span{
+    font-size: 50px;
+    font-weight: bold;
+}
+.bordas{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.divisoes{
+    border: 2px solid #EAECF0;
+    width: 700px;
+    height: 120px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    
+}
+.divisoes span{
+    margin-left: 25px;
+}
+.conteudo-colaboradores{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color:#FDF8F8;
+    width: 1000px;
+    height: 350px;
+    border-radius: 20px;
+    
+}
+.colaboradores{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer{
+    margin-top: 70px;
+    background-color: #F9FAFB;
+    display: flex;
+    justify-content: center;
+}
+.rodape{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    
+}
+.caixa{
+    border: 2px solid #EAECF0;
+    width: 280px;
+    height: 30px;
+    border-radius: 8px;
+    
+}
+.caixa-borda-red{
+    background-color: #8E2424;
+    height: 20px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px;
+    color: #fff;
+    margin-left: 10px;
+}
+/*
+.colaboradores span{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}*/
